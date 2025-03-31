@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+        }
+        .post {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .post h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+    </header>
+    <div class="container">
+        <div class="post">
+            <h2>My First Blog Post</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+        </div>
+        <div class="post">
+            <h2>Another Interesting Post</h2>
+            <p>Curabitur pharetra sapien et leo pharetra, ut efficitur dui molestie. Fusce tincidunt risus eu nisl dapibus, in consectetur arcu tempus.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himoyalangan Sahifa</title>
+    <script>
+        function tekshir() {
+            var parol = prompt("Kirish kodi:");
+            if (parol !== "100200") { // Parolni o'zgartirish mumkin
+                alert("Noto‘g‘ri parol! Qaytadan urinib ko‘ring.");
+                window.location.href = "https://google.com"; // Xato bo‘lsa, boshqa sahifaga yo‘naltirish
+            }
+        }
+    </script>
+</head>
+<body onload="tekshir()">
+    <h1>Maxfiy Sahifa</h1>
+    <p>Bu yerga faqat kod bilan kirish mumkin.</p>
+</body>
+</html>
